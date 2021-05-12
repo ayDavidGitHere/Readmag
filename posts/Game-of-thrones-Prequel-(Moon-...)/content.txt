@@ -1,0 +1,3 @@
+
+    <div id="regulartext" class="regulartext" =""><h2 blogh2="">About GOT prequel.</h2> <br>No stylists. <h2 blogh2="">New stylists</h2> <br>Use <strong blogb="">revet</strong>  to return the raw editing.<br>Use the <strong blogb="">clear</strong>  button to <i blogi=""><img blogimg="" class="blogims" src="img/defaultimlast.png">clear</i> the article of all text.</div>
+     

@@ -1,0 +1,3 @@
+
+    <div id="regulartext" class="regulartext" =""><h2 blogh2="">James Arthur.</h2> <br>To add styles to the article, highlight texts and use the <strong blogb="">buttons</strong>  change their styles.<br><br>The article must be more than 200 words. <br>Use the <strong blogb="">clear</strong>  button to clear the article of all text.</div>
+     

@@ -1,0 +1,265 @@
+
+
+.pictureBox{
+    width: 89%;
+    border-radius: 10px; border-color: rgb(55, 37, 111);
+    margin: 0 auto;
+  //  background: rgb(55, 37, 111);       
+ //   background: linear-gradient(to left top, rgb(50, 50, 75), rgb(50, 50, 75) 30%);
+   background: radial-gradient(circle farthest-corner at top left, rgb(50, 50, 75), rgb(50, 50, 75) 40%);
+    overflow: hidden;
+    padding: 10px;
+    color: white;   font-family: font2; font-size: 13px;
+}
+
+#intro{
+    padding: 20px; 
+    font-size: 13px;
+    width: 75%;
+    border-radius: 17px;
+    // -webkit-filter: drop-shadow(0px 0px 5px rgb(50, 50, 75));
+}
+
+
+
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+
+eachCommentTag{
+    display: inline-block; width: 100%;
+    
+}
+.contentPager{
+    border-radius: 5px;
+    border-color: rgb(55, 37, 111);
+    border-style: solid;
+	border-width: 0px;
+    background: ghostWhite;
+    -webkit-filter: drop-shadow(0px 0px 0px rgb(50, 50, 75));
+	width: 90%; margin-top: 20px;   float: right;
+	z-index: 1; 
+    //-webkit-box-shadow: 1px 1px 1px 2px rgb(55, 37, 111); 
+    -webkit-filter: drop-shadow(0px 0px 2px rgb(50, 50, 75));
+    font-size: 11px;
+    }
+.sub1{
+    
+}
+.sub2{ width: 70%;
+     margin-top: 5px;
+}
+.sub3{width: 60%; margin-top: 3px;}
+.cpText{  font-size: 13px; font-family: font; 
+          padding: 0px; 
+          text-align: center;
+          color: rgb(55, 37, 111);
+}
+
+
+.poster{ display: block; }
+.posterimage{
+  width: 8%;
+  clip-path: circle(50% at 50% 50%); background: rgb(55, 37, 111);
+  float:left;
+}
+.posterinfo{   }
+.postername{ font-family: font2; font-size: 12px;  color: black; }
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.messages{
+    width: 87%;
+    border-radius: 10px; border-color: rgb(55, 37, 111); border-width: 1px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px; background: red;
+    color: grey;   font-family: font2; font-size: 13px;
+    display: block; white-space: ;
+}
+
+   
+
+.upvoteBut{ 
+    border-radius: 3px; border-color: rgb(55, 37, 111);  border-style: solid;
+	border-width: 1.2px;
+    background: rgb(55, 37, 111);
+    text-align: center;
+    padding-left: 6px; padding-right: 6px;
+    color: White;
+    font-size:9px; font-family: font2; 
+	 position: absolute;
+	 //keep for later // for adding comments
+    //top: 100%; left: 20%; transform: translate(-50%, -60%);
+    top: 100%; left: 42%; transform: translate(-50%, -60%);
+    -webkit-transform: translate(-50%, -60%);
+    -moz-transform: translate(-50%, -60%);
+    width: 6%; height: 12px;  display: inline-block;
+    //filter: invert(150%); 
+}
+       
+.svgupvote{
+     filter: invert(100%); 
+    -webkit-filter: invert(100%); 
+    -moz-filter: invert(100%); 
+    z-index: 1;
+    width: 50%; height: 100%;
+    display: inline; 
+    //-webkit-transform: rotate(180deg) scale(-1, 1);
+    //-moz-transform: rotate(180deg) scale(-1, 1);
+}
+  
+[stateUV='voted']{
+    background: rgba(200, 55, 35, 1);
+    border-color: rgba(200, 55, 35, 1);
+}
+[stateUV='nvoted']{
+    background: rgb(55, 37, 111);
+    border-color: rgb(55, 37, 111);
+    display: none;
+}
+
+
+  
+      
+        
+      
+        
+      
+      
+
+.downvoteBut{ 
+    border-radius: 3px; border-color: rgb(55, 37, 111);  border-style: solid;
+	border-width: 1.2px;
+    background: rgb(55, 37, 111);
+    text-align: center;  
+    padding-left: 6px; padding-right: 6px;
+    color: White;
+    font-size:9px; font-family: font2; 
+	 position: absolute;
+	 //keep for later // for adding comments
+    //top: 100%; left: 20%; transform: translate(-50%, -60%);
+    top: 100%; left: 58%; 
+    -webkit-transform: translate(-50%, -60%);
+    -moz-transform: translate(-50%, -60%);
+    width: 6%; height: 12px;  display: inline-block;
+     line-height: 16px;
+    //filter: invert(150%); 
+}
+       
+.svgdownvote{
+     filter: invert(100%); 
+    -webkit-filter: invert(100%); 
+    -moz-filter: invert(100%); 
+    z-index: 1;
+    width: 50%; height: 100%;    
+    display: inline;  
+}
+  
+[stateDV='voted']{
+    background: rgba(35, 55, 200, 1);
+    border-color: rgba(35, 55, 200, 1);
+}
+[stateDV='nvoted']{
+    background: rgb(55, 37, 111);
+    border-color: rgb(55, 37, 111);
+    display: none;
+}
+
+
+
+.replyBut{
+    border-radius: 15px; border-color: rgb(55, 37, 111, 0.4);  border-style: none;
+	border-width: 1.2px;
+    background: rgb(55, 37, 150, 0.8);
+    text-align: center;  
+    padding-left: 13px; padding-right: 13px;
+    padding-top: 2px; padding-bottom: 2px; 
+    color: White;
+    font-size:12px; font-family: font2; /*
+	 position: absolute;
+	 transform: translate(-50%, -60%);
+    top: 100%; left: 50%; 
+    -webkit-transform: translate(-50%, -60%);
+    -moz-transform: translate(-50%, -60%);  */
+    position: relative;  left: 5%;
+     display: inline-block;
+     line-height: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#commentTextarea{
+    outline-color: rgb(55, 37, 111);
+    width: 100%;
+}
+       
+       
+       
+       
+       
+.sendBut{ 
+    border-radius: 3px; border-color: rgb(55, 37, 111);  border-style: solid;
+	border-width: 1.2px;
+    background: rgb(55, 37, 111);
+    text-align: center;
+    padding-left: 6px; padding-right: 6px;
+    color: White;
+    font-size:11px; font-family: font2; 
+	 position: absolute;
+	 //keep for later // for adding comments
+    //top: 100%; left: 20%; transform: translate(-50%, -50%);
+    top: 100%; left: 50%; transform: translate(-50%, -50%);
+    width: 10%; height: 20px;  display: inline-block;
+    //filter: invert(150%);
+}
+       
+.svgsend{
+     filter: invert(100%); 
+    -webkit-filter: invert(100%); 
+    -moz-filter: invert(100%); 
+    z-index: 1;
+    width: 100%; height: 100%;
+}
+
+
+
+
+
+

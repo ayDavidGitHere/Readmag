@@ -1,0 +1,39 @@
+
+
+
+#thefooter{
+background: rgb(55, 37, 111);
+width: 100%; 
+border-top-right-radius: 100px;
+display: inline-block;
+margin-bottom: 0px;
+
+}  
+
+    
+    
+
+.itemAtFoot{
+    margin-left: 20px;
+    color: white;
+    font-family: font2; font-size: 11px;
+    font-weight: bold;
+}
+.storyAtFoot{
+    margin-left: 70px;
+    color: white; font-family: font2; font-size: 9px;
+    font-style: italic;
+}
+     
+      
+      
+@media only screen and (min-width: 450px) and (max-width: 1023px) {
+    
+      #thefooter{
+         width: 50%;
+        // display: block;
+        // margin: 0 auto;
+      }
+    
+}  
+

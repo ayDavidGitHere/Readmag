@@ -1,0 +1,12 @@
+
+    <div class="regulartext">
+                    Release date of the new movie: the baracuda.
+<br>
+<br><h2 blogh2="">  Release Date: the Baracuda </h2>
+<br>New movie <b blogb="">  the baracuda </b> releases today. the highly ancticipated. 
+<br>
+<br>It starrs actors like <i blogi="">  Nick Sheila </i>.
+<br>It includes.
+<br>    </div>
+
+     

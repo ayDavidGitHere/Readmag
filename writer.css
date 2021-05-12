@@ -1,0 +1,282 @@
+
+body{
+padding: 0%;
+margin-top: 0%;
+width: 100%;
+display: inline;
+}
+
+
+
+@font-face{
+ src: url("fonts/LBR.ttf");   
+ font-family:font;}
+
+@font-face{
+ src: url("fonts/RobotoM.ttf");   
+ font-family:fontThick;}
+ 
+ @font-face{
+ src: url("fonts/nb.ttf");   
+ font-family:font2;}
+  
+ @font-face{
+ src: url("fonts/CodaR.ttf");   
+ font-family:font3;}
+
+
+
+#header{  
+  //position: fixed;
+  z-index: 1;
+  background: DarkRed;//rgba(32, 2, 132, 1);
+  width: 100%;
+  height:40px; 
+  margin-bottom: 0px;
+  //  filter: drop-shadow(0px 2px 1px #444444);
+}
+.shareAtHeader{ 
+    border-radius: 35px;
+    background: White;
+	text-align: right;
+	padding-left: 7px;  padding-right: 7px;
+	font-size: 15px;
+	font-family: font2;
+	float: right;
+	margin-top: 10px; margin-right: 10px;
+	color:DarkRed;
+	font-weight: bold;
+}
+#content{
+  margin-top: 2%;
+  //background:rgba(32, 2, 132, 1) ;
+}
+
+#mainHeadingText{ 
+    border-radius: 0px;
+    border-color: #4d4d4d;/*
+    border-style: outset;*/
+    background: white;
+    -webkit-filter: drop-shadow(-2px 2px 1px #4d4d4d);
+    font-size: 10px;
+    padding: 10px;
+     // margin-left: 10px; //  margin-right: 10px;
+    font-family: fontThick;
+    font-weight: lighter;
+	text-align: center;
+}
+#date{  font-size: 10px; 
+        text-align: right; padding-right: 10px;}
+#writtenby{  font-size: 14px; 
+        text-align: right; padding-right: 10px;}
+blogname{ border-radius: 20px; padding: 5px;
+    background: DarkRed; 
+	color: white; font-family:font2 }
+linkTop{ border-radius: 14px; padding: 5px; font-size: 10px;
+    background: LightCoral; 
+	color: white; font-family:font2 } 
+#mainHeadingDiv{ margin-bottom: 50px;    }
+
+
+        
+
+
+.anotherHead{  font-size: 18px; font-weight:bold; margin-left:8px }
+.contentTexts{ margin-bottom: 70px;  margin-top: 10px;  margin-left: 20px;  margin-right: 20px;
+             //  padding: 10px; 
+            font-size: 14px; font-family: font; text-align: left; line-height: 2.2em;
+			text-align: left;
+            }
+.contentImages{ margin: 5px; width:300px; height:310px;  }
+.contentImagesDiv{   }
+
+
+
+
+.contentPagerIm{
+    border-radius: 8px;
+    //border-color: #4d4d4d;
+    border-style: solid;
+	border-width: 0px;
+    background: white;
+     -webkit-filter: drop-shadow(0px 0.33px 1px #4d4d4d);
+	margin-left: 20px; margin-right: 20px;
+	width: 320px;
+	//height: 150px;
+	margin-bottom: 5px;
+	overflow: hidden;
+    }
+
+.contentPager{
+    border-radius: 8px;
+    border-color: #4d4d4d;
+    border-style: solid;
+	border-width: 0px;
+    background: white;
+     -webkit-filter: drop-shadow(0px 0.33px 1px #4d4d4d);
+	margin: 20px;
+//	height: 150px;
+	margin-bottom: 50px;
+    }
+.cpText{ text-align:center; font-family:TT; margin-top:2px; padding-top:3px; font-weight:bold; }
+.cpBut{  
+    border-radius: 4px;
+    border-color: LightCoral;
+    border-style: solid;
+	border-width: 1.2px;
+    background: LightCoral;
+    text-align: center;
+    padding: 5px;
+    color: White;
+    font-size:13px; font-family: font2; 
+	//display: block;
+	//margin: 0 auto;
+	 position: absolute;
+ top: 100%; left: 50%; transform: translate(-50%, -50%);
+	}
+	
+	
+
+
+#otherPagesAtEnd { background-color: DarkRed;
+               margin: 20px ; padding:10px;
+                   border-radius: 6px }
+.pages{ overflow: hidden; margin-bottom:10px;  }
+.imgPages{  width: 100px; height: 100px; float:left }
+.textPages{ font-size:13px; color:white; margin-left:0px;    }
+.linkToOtherPages{ text-decoration:none;    }
+
+
+
+
+#comment{  background-color:  DarkRed;
+         margin: 0 auto;
+}
+#yourname{  border-radius: 10px;
+            margin: 10px;
+			height: 50px;  width: 300px;
+			border-width: 0px;
+			border-style: solid;
+			outline: none;
+			
+}
+
+
+#EmailAddress{  border-radius: 10px;
+            margin: 10px;
+			height: 50px;  width: 300px;
+			border-width: 0px;
+			border-style: solid;
+			outline: none;
+			
+}
+
+#CommentText{  border-radius: 10px;
+            margin: 10px;
+			height: 100px;  width: 300px;
+			border-width: 0px;
+			border-style: solid;
+			outline: none;
+			
+}
+#quote{  margin-left: 20px;
+        width: 280px; height: 40px;
+        outline: none;
+        border-color: red; 
+        border-width: 0px; border-bottom-width: 1.5px;  
+        border-radius: 7px;
+}
+#tags{  
+        margin-left: 20px; margin-bottom: 20px;
+        width: 280px; height: 40px;
+        outline: none;
+        border-color: red; 
+        border-width: 0px; border-bottom-width: 1.5px;  
+        border-radius: 7px;
+}
+#labelQuote{ font-size: 13px; font-family: font3;     }
+#labelTags{ font-size: 13px; font-family: font3;     }
+
+
+
+
+
+.svg{
+width: 50px;
+display: block;
+margin: 0 auto;
+//margin:10px;
+//filter: invert(158%) sepia(79%) saturate(2476%);// hue-rotate(86deg) brightness(118%) contrast(119%);
+filter: invert(20%);
+//z-index: 2;
+}
+     
+     
+
+
+
+
+
+.videobox{
+  width: 330px;
+  margin-left: 25px;
+  border-width: 0.61px;
+  border-style: solid;
+  border-color: rgba(32, 2, 132, 1);
+  border-radius: 10px;
+ //background:rgba(225, 225, 225, 1) ;
+ margin-top: 30px;
+}
+.poster{  }
+.posterimage{
+  width: 36px;
+   clip-path: circle(50% at 40% 40%); 
+  float:left;
+}
+.posterinfo{   }
+.postername{ font-family: fontThick; font-size: 12px;   }
+.videohere{   width: 330px; 
+            max-width: 100%;
+           object-fit: fill; 
+          
+}
+.videocontainer{  //object-fit: fill;  
+    }
+.posterthought{   font-family: fontThick; font-size: 13px;      }
+.likesandcomments{
+  width: 100%;  height: 17px; background: DarkRed;// rgba(32, 32, 132, 1 ); 
+  margin-bottom: 8px; 
+  border-radius: 8px;}
+
+
+
+
+#floatingAB{
+width:50px;
+height:50px;
+border-radius:50%;
+background: DarkRed;// rgba(32, 2, 180, 1);
+margin:0 auto;
+position: fixed;
+z-index: 2;
+margin-left: 80%;
+margin-top: 100%;
+filter: drop-shadow(1px 5px 1px #444444);
+//box-shadow: 0px 0px 7px -1px #4d4d4d;
+}
+
+
+
+
+#lastDiv { background:  DarkRed;  // rgba(32, 2, 132);
+              text-align: center;
+             color:white; font-size:13px;
+			 font-family: font2;
+			 padding:7px;
+			 margin-top: 80px;
+			 }
+
+.lnk2{  text-decoration: none; color:white }
+a{  text-decoration: none;    }
+
+

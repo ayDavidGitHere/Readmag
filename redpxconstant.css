@@ -1,0 +1,113 @@
+body{
+width: 100%;
+height: 100%;
+margin-top: 0px; margin-left: 0px;
+margin-bottom: 0px; 
+background: ghostwhite;
+overflow-x: hidden;
+}
+  
+ 
+
+   
+@font-face{
+ src: url("fonts/CodaR.ttf");   
+ font-family:font;
+    
+}
+@font-face{
+ src: url("fonts/nb.ttf");   
+ font-family:font2;
+}
+@font-face{
+ src: url("fonts/The27.ttf");   
+ font-family:font3;
+}
+
+@font-face{
+ src: url("fonts/Cosmix.ttf");   
+ font-family:font4;
+}
+
+@font-face{
+ src: url("fonts/DINB.otf");   
+ font-family:font5;
+}
+
+@font-face{
+ src: url("fonts/abelr.ttf");   
+ font-family:font6;
+}
+   
+@font-face{
+ src: url("fonts/chunk.ttf");   
+ font-family:font7;
+}
+   
+@font-face{
+ src: url("fonts/petronar.ttf");   
+ font-family:font8;
+}
+   
+@font-face{
+ src: url("fonts/lctr.ttf");   
+ font-family:font9;
+}
+   
+
+
+
+
+
+#headerDiv{
+    background: rgb(55, 37, 111);
+    text-align: center;
+    color: white;
+    font-size: 18px; font-family: font4;
+    padding-left: 0%;  padding-right: 0%;
+    padding-top: 5px; padding-bottom: 5px;
+    width: 100%;
+    position: fixed; z-index: 2;
+    border-bottom-right-radius: 0px;
+}
+
+
+.transparentlink{
+    color: inherit;
+    text-decoration: none;
+}
+br5{
+    display: block;
+    height: 5px;
+}    
+br10{
+    display: block;
+    height: 10px;
+}    
+
+brk{
+    display: block;
+    height: 3px;
+}
+
+
+#linkAtHeader{
+    border-radius: 35px;
+    background: White;
+	text-align: right;
+	padding-left: 7px;  padding-right: 7px;
+	font-size: 15px;
+	font-family: font2;
+	float: right;
+	margin-top: 10px; margin-right: 10px;
+	color:rgb(55, 37, 111);
+	font-weight: bold;
+}
+
+
+[hideme]{
+    display: none;
+}
+
+
+

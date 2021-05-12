@@ -1,0 +1,176 @@
+
+body{
+padding: 0%;
+margin-top: 0%;
+width: 100%;
+display: inline;
+}
+
+
+
+@font-face{
+ src: url("fonts/LBR.ttf");   
+ font-family:font;}
+
+@font-face{
+ src: url("fonts/RobotoM.ttf");   
+ font-family:fontThick;}
+ 
+ @font-face{
+ src: url("fonts/nb.ttf");   
+ font-family:font;}
+
+ @font-face{
+ src: url("fonts/CodaR.ttf");   
+ font-family:font3;}
+
+
+
+#header{
+    width: 100%;
+    height: 40px;
+    background: rgb(55, 37, 111);
+    overflow: hidden;
+}
+#headerImg{
+    width: 70px;
+    height: 40px;
+    margin: 0 auto;
+}
+#linkAtHeader{
+    border-radius: 35px;
+    background: White;
+	text-align: right;
+	padding-left: 7px;  padding-right: 7px;
+	font-size: 15px;
+	font-family: font;
+	float: right;
+	margin-top: 10px; margin-right: 10px;
+	color:rgb(55, 37, 111);
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+#content{
+  margin-top: 2%;
+  //background:rgba(32, 2, 132, 1) ;
+}
+
+
+
+
+
+
+
+
+
+#Login{  height: 0px;
+         overflow: hidden;
+         transition: height 0.5s ease-in;
+         }
+#SignUp{  height: 0px;
+         overflow: hidden;
+         transition: height 0.5s ease-in;
+         }
+#loginText{ text-align: center; color:white; background: rgb(55, 37, 111); padding: 8px; 
+    width: 50px; margin: 0 auto;
+    border-radius: 20px; font-family: font;
+}
+#signupText{   text-align: center; color:white; 
+    background: rgb(55, 37, 111);
+    padding: 8px;   
+    width: 70px; margin: 0 auto;
+    border-radius: 25px;
+    font-family: font;
+}
+
+
+
+#username{  border-radius: 8px;
+            margin-bottom: 10px;
+			height: 40px;  width: 75%;
+			border-width: 0.5px;
+			border-style: solid;
+			outline: none;
+			border-color: rgb(55, 37, 111);
+			margin-left: 30px;
+			text-align: center;
+	background: grey;//  
+    
+}
+
+
+#EmailAddress{  border-radius: 8px;
+            margin-bottom: 10px;
+			height: 40px;  width: 75%;
+			border-width: 0.5px;
+			border-style: solid;
+			outline: none;
+			border-color: rgb(55, 37, 111);
+			margin-left: 30px;
+			text-align: center;
+	        background: grey;//  
+	}
+
+
+
+.psyd{  border-radius: 8px;
+            margin-bottom: 0px;
+			height: 40px;  width: 120px;
+			border-width: 0.4px;
+			border-style: solid;
+			outline: none;
+         	border-color: rgb(55, 37, 111);
+            margin-left: 30px;   
+			display: block;
+			text-align: center;
+	background: grey;//  : rgba(250, 205, 205, 1);
+}
+#ps{  }
+#ps2 {    }
+
+
+#CommentText{  border-radius: 10px;
+            margin-bottom: 10px;
+			height: 100px;  width: 300px;
+			border-width: 0px;
+			border-style: solid;
+			outline: none;
+         	border-color: rgb(55, 37, 111);
+			margin-left: 30px;
+}
+.AboveInput{ font-weight:bold; font-size:11px; font-family:fontThick; margin-left: 25px;  }
+
+.submitBut{  
+    border-radius: 6px;
+    border-color: rgb(55, 37, 111);
+    border-style: solid;
+	border-width: 1.2px;
+    background: rgb(55, 37, 111);
+    text-align: center;
+    padding: 7px;
+    color: White;
+    font-size:15px; font-family: font; 
+	//display: block; 
+	outline: none;
+	margin-left: 30px;
+	}
+	
+
+
+
+
+
+
+
+
+.lnk2{  text-decoration: none; color:white }
+a{  text-decoration: none;    }
+
+

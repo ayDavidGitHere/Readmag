@@ -1,0 +1,8 @@
+.writerDp{
+      background: crimson;
+      width: 20%;
+      border-bottom-right-radius: 20px;
+}
+.divGroupWriters{
+    display: block; margin: 0 auto; width: 96%;
+}

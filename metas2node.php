@@ -1,0 +1,3 @@
+ <meta name="title" content="<?php echo $topicname.' on ReadMag';  ?>"> <meta name="description" content="<?php echo $topicdescription;  ?>">
+ <meta name="keywords" content="<?php echo $tags;  ?>">
+ <meta name="robots" content="index, follow"> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <meta name="language" content="English"> <meta name="revisit-after" content="1 days"> <meta name="author" content="<?php echo $writer;  ?>">

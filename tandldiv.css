@@ -1,0 +1,97 @@
+
+#latestheader{
+    background: crimson;
+    border-bottom-right-radius: 30px;
+    color: white;
+    padding: 10px;
+    font-family: font;
+}
+
+
+
+
+.divtoothers{ 
+    width: 94%;
+    text-align: left;
+    font-size: 13px; font-family: font;
+   /* border-top-width: 0.61px; border-top-color: red; border-top-style: solid;
+   */ border-bottom-width: 0.61px; border-bottom-color: red; border-bottom-style: solid;
+    display: inline-block;
+    margin-left: 3%; margin-right: 3%;
+}
+.ptoothers{ 
+    width: 85%;   max-height: 100px;
+    overflow: hidden;
+    padding-top: 1px; padding-bottom: 1px;
+    display: block;
+    text-transform: capitalize;
+    float: left;
+    
+}
+tDes{
+    display: block;
+    margin-left: 1%;
+    font-size: 11;  
+    color: gray;
+}
+
+.dtoimage{
+    display: inline-block;
+    float: right;  
+    margin-top: 5px;  margin-right: 1%;
+    width: 12%; height: inherit;
+    border-radius: 13%;  overflow: hidden;
+}
+.imgInDto{
+    width: 100%;
+}
+
+
+.tags{ 
+    background: crimson;  border-radius: 10px;
+    padding-left: 8px;  padding-right: 8px;
+    padding-top: 2px; padding-bottom: 2px;  color: white;
+    margin-bottom: 2px; margin-left: 5px;
+    float: left;
+    font-family: font; font-size: 8px; 
+    opacity: 0.8;
+}
+.tagsDiv{   width:100%;
+            display: inline-block;
+            display: none;   /*          */
+}
+.imageandtext{
+    display: block;
+}
+
+
+    
+    
+    
+    
+    
+[viewsspan]{
+    background: indigo;
+    padding-left: 3px;  padding-right: 3px;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
