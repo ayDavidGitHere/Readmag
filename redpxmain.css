@@ -10,7 +10,7 @@
     border-bottom-right-radius: 120px;
     //display: inline-block; 
     //width: 100%;
-    background: radial-gradient(circle farthest-corner at bottom right, midnightblue, rgb(55, 37, 111) 44% );
+    background: radial-gradient(circle farthest-corner at bottom right, midnightblue, rgb(22, 19, 55) 44% );
     //-webkit-filter: drop-shadow(0px 0px 3px red);  
 }
 
@@ -34,13 +34,13 @@
 
 about{
     color: white; font-style: normal;
-    font-size: 25px;  
+    font-size: 30px;  
     font-family: font6;
     margin: 0px;
     text-align: center;
 }
 .regheader{
-    background: rgb(55, 37, 111);
+    background: rgb(22, 19, 55);
     border-bottom-right-radius: 30px;
     color: white;
     padding: 8px;
@@ -70,11 +70,11 @@ latestspace{
        
 #searchBox{
     background: inherit;
-    border-radius: 100px;  border-width: 0px; border-color: rgb(55, 37, 111);
+    border-radius: 100px;  border-width: 0px; border-color: rgb(22, 19, 55);
     border-style: outset;
     margin: 0 auto; display: block;
     width: 70%; height: 40px;
-    outline-color: rgb(55, 37, 111);
+    outline-color: rgb(22, 19, 55);
     padding-left: 5%;
     -webkit-box-shadow: 1px 1px 3px -1px gray; 
     -moz-box-shadow: 1px 1px 5px -1px grey; 
@@ -148,7 +148,7 @@ fixedContainer{
     color: white;
     position: relative;
     bottom: 0px;
-//background: radial-gradient(circle farthest-corner at bottom right, coral, rgb(55, 37, 111) 5%);
+//background: radial-gradient(circle farthest-corner at bottom right, coral, rgb(22, 19, 55) 5%);
 }
        
        

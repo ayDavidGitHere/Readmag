@@ -2,9 +2,9 @@
 
 .pictureBox{
     width: 89%;
-    border-radius: 10px; border-color: rgb(55, 37, 111);
+    border-radius: 10px; border-color: rgb(22, 19, 55);
     margin: 0 auto;
-  //  background: rgb(55, 37, 111);       
+  //  background: rgb(22, 19, 55);       
  //   background: linear-gradient(to left top, rgb(50, 50, 75), rgb(50, 50, 75) 30%);
    background: radial-gradient(circle farthest-corner at top left, rgb(50, 50, 75), rgb(50, 50, 75) 40%);
     overflow: hidden;
@@ -39,15 +39,15 @@ eachCommentTag{
 }
 .contentPager{
     border-radius: 5px;
-    border-color: rgb(55, 37, 111);
+    border-color: rgb(22, 19, 55);
     border-style: solid;
 	border-width: 0px;
     background: ghostWhite;
     -webkit-filter: drop-shadow(0px 0px 0px rgb(50, 50, 75));
 	width: 90%; margin-top: 20px;   float: right;
 	z-index: 1; 
-    //-webkit-box-shadow: 1px 1px 1px 2px rgb(55, 37, 111); 
-    -webkit-filter: drop-shadow(0px 0px 2px rgb(50, 50, 75));
+    //-webkit-box-shadow: 1px 1px 1px 2px rgb(22, 19, 55); 
+    -webkit-filter: drop-shadow(0px 0px 2px rgb(150, 100, 55));
     font-size: 11px;
     }
 .sub1{
@@ -60,14 +60,14 @@ eachCommentTag{
 .cpText{  font-size: 13px; font-family: font; 
           padding: 0px; 
           text-align: center;
-          color: rgb(55, 37, 111);
+          color: rgb(22, 19, 55);
 }
 
 
 .poster{ display: block; }
 .posterimage{
   width: 8%;
-  clip-path: circle(50% at 50% 50%); background: rgb(55, 37, 111);
+  clip-path: circle(50% at 50% 50%); background: rgb(22, 19, 55);
   float:left;
 }
 .posterinfo{   }
@@ -92,7 +92,7 @@ eachCommentTag{
 
 .messages{
     width: 87%;
-    border-radius: 10px; border-color: rgb(55, 37, 111); border-width: 1px;
+    border-radius: 10px; border-color: rgb(22, 19, 55); border-width: 1px;
     margin: 0 auto;
     overflow: hidden;
     padding: 10px; background: red;
@@ -103,9 +103,9 @@ eachCommentTag{
    
 
 .upvoteBut{ 
-    border-radius: 3px; border-color: rgb(55, 37, 111);  border-style: solid;
+    border-radius: 3px; border-color: rgb(22, 19, 55);  border-style: solid;
 	border-width: 1.2px;
-    background: rgb(55, 37, 111);
+    background: rgb(22, 19, 55);
     text-align: center;
     padding-left: 6px; padding-right: 6px;
     color: White;
@@ -136,8 +136,8 @@ eachCommentTag{
     border-color: rgba(200, 55, 35, 1);
 }
 [stateUV='nvoted']{
-    background: rgb(55, 37, 111);
-    border-color: rgb(55, 37, 111);
+    background: rgb(22, 19, 55);
+    border-color: rgb(22, 19, 55);
     display: none;
 }
 
@@ -151,9 +151,9 @@ eachCommentTag{
       
 
 .downvoteBut{ 
-    border-radius: 3px; border-color: rgb(55, 37, 111);  border-style: solid;
+    border-radius: 3px; border-color: rgb(22, 19, 55);  border-style: solid;
 	border-width: 1.2px;
-    background: rgb(55, 37, 111);
+    background: rgb(22, 19, 55);
     text-align: center;  
     padding-left: 6px; padding-right: 6px;
     color: White;
@@ -183,17 +183,17 @@ eachCommentTag{
     border-color: rgba(35, 55, 200, 1);
 }
 [stateDV='nvoted']{
-    background: rgb(55, 37, 111);
-    border-color: rgb(55, 37, 111);
+    background: rgb(22, 19, 55);
+    border-color: rgb(22, 19, 55);
     display: none;
 }
 
 
 
 .replyBut{
-    border-radius: 15px; border-color: rgb(55, 37, 111, 0.4);  border-style: none;
+    border-radius: 15px; border-color: rgba(22, 19, 55, 0.4);  border-style: none;
 	border-width: 1.2px;
-    background: rgb(55, 37, 150, 0.8);
+    background: rgba(22, 19, 55, 0.4); ;
     text-align: center;  
     padding-left: 13px; padding-right: 13px;
     padding-top: 2px; padding-bottom: 2px; 
@@ -226,7 +226,7 @@ eachCommentTag{
 
 
 #commentTextarea{
-    outline-color: rgb(55, 37, 111);
+    outline-color: rgb(22, 19, 55);
     width: 100%;
 }
        
@@ -235,9 +235,9 @@ eachCommentTag{
        
        
 .sendBut{ 
-    border-radius: 3px; border-color: rgb(55, 37, 111);  border-style: solid;
+    border-radius: 3px; border-color: rgb(22, 19, 55);  border-style: solid;
 	border-width: 1.2px;
-    background: rgb(55, 37, 111);
+    background: rgb(22, 19, 55);
     text-align: center;
     padding-left: 6px; padding-right: 6px;
     color: White;

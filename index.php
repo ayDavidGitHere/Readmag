@@ -9,11 +9,12 @@
 <link rel="stylesheet" href="http://<?php print $_SERVER['HTTP_HOST']; ?>/tandldiv.css"> 
 
 
-   <meta name="theme-color" content="rgb(55, 37, 111)"/>
- <meta name="title" content="Read Articles on Various Topics on ReadMag"><meta name="description" content="Read and write erotica, sci-fi, fantasy, fiction stories || share your griefs and seek advices from people"> <meta name="keywords" content=" erotica, sci-fi, fantasy, relationship, advices, stories, read, write"> <meta name="robots" content="index, follow"> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <meta name="language" content="English"> <meta name="revisit-after" content="1 days"> <meta name="author" content="aydavidgithere">
- <title >Read Articles on Various Topics on ReadMag</title>
-<noscript>Unfortunately, JavaScript must be enabled in your browser</noscript>
+  <meta name="theme-color" content="rgb(22, 19, 55)"/>
+ <meta name="title" content="ReadMag, Read or Write Articles"> <meta name="description" content="Read and write erotica, sci-fi, fantasy, fiction stories "> <meta name="keywords" content=" erotica, sci-fi, fantasy, relationship, advices, stories, read, write"> <meta name="robots" content="index, follow"> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <meta name="language" content="English"> <meta name="revisit-after" content="1 days"> <meta name="author" content="aydavidgithere">
+ <title >Read or Write on ReadMag</title>
+<noscript>Is JavaScript enabled on your browser?</noscript>
     </head>
+    
     
     <body onload="run()">
      <script src="lidsacaebasic.js"></script>

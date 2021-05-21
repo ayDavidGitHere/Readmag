@@ -6,7 +6,7 @@ body{
 }
 
 .sect{
-    background: rgb(55, 37, 111);
+    background: rgb(22, 19, 55);
     text-align: center;
     color: white;
     font-size: 18px; font-family: font4;
@@ -15,7 +15,7 @@ body{
     width: 100%;  background-attachment: scroll;
 }
 hT{
-    background: rgb(55, 37, 111); 
+    background: rgb(22, 19, 55); 
     border-bottom-right-radius: 7px;
     border-top-left-radius: 7px;
     padding-left: 5px; padding-right: 5px;
@@ -26,7 +26,7 @@ topic{
     font-size: 35px; font-weight: bold;
     display: inline-block;
     text-transform: capitalize;  text-align: center;
-    background: rgb(55, 37, 111); 
+    background-color: rgba(5.5, 3.7, 11.1,  0.5); 
     padding-top: 8px; padding-bottom: 8px;
     padding-left: 5%; padding-right: 5%;
     margin-top: 15px; margin-bottom: 0px;
@@ -43,7 +43,7 @@ tcont{
 }
 
 .sect rpx{
-    color: rgb(55, 37, 111);
+    color: rgb(22, 19, 55);
     font-family: font; font-size: 12px;
     display: inline-block;
     text-align: center;
@@ -54,7 +54,7 @@ tcont{
 }
 
 #commentsheader{
-    background: rgb(55, 37, 111);
+    background: rgb(22, 19, 55);
     border-bottom-right-radius: 30px;
     color: white;
     padding: 10px;
@@ -62,7 +62,7 @@ tcont{
 }
 
 #latestheader{
-    background: rgb(55, 37, 111);
+    background: rgb(22, 19, 55);
     border-bottom-right-radius: 30px;
     color: white;
     padding: 10px;
@@ -76,13 +76,13 @@ tcont{
 [blogh2]{
     //display: inline;
      font-family: font8;
-     color: rgb(55, 37, 111);
+     color: rgb(22, 19, 55);
 }
 
 [blogh3]{
     //display: inline;
      font-family: font8;
-     color: rgb(55, 37, 111);
+     color: rgb(22, 19, 55);
 }
 [blogB]{
     display: inline;
@@ -163,7 +163,7 @@ h3{
     white-space: normal;
 }
 #editingcontrolsCont button{
-    background: rgb(55, 37, 111); border-color: transparent;
+    background: rgb(22, 19, 55); border-color: transparent;
     color: white; font-family: font6; 
     box-shadow: 1px 1px 5px -1px black; 
 }

@@ -60,7 +60,7 @@ overflow-x: hidden;
 
 
 #headerDiv{
-    background: rgb(55, 37, 111);
+    background: rgb(22, 19, 55);
     text-align: center;
     color: white;
     font-size: 18px; font-family: font4;
@@ -100,7 +100,7 @@ brk{
 	font-family: font2;
 	float: right;
 	margin-top: 10px; margin-right: 10px;
-	color:rgb(55, 37, 111);
+	color:rgb(22, 19, 55);
 	font-weight: bold;
 }
 

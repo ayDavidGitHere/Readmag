@@ -57,20 +57,21 @@ function send(){
         <article>
     <header >
     <div id="headerDiv" 
-    style="background-image: url(img/main.jpg), url(img/main.png), url(<?php echo $arrayofimagessrc[0]; ?>); 
+    style="background-image: url(<?php echo $arrayofimagessrc[0]; ?>); 
       background-repeat: no-repeat;
       background-position: 50% 24%;
-      background-color: rgb(55, 37, 111);
+      background-color: rgb(22, 19, 55);
       background-size: cover;
                       ">
       <ht><a class="transparentlink" 
            href="http://<?php print $_SERVER['HTTP_HOST']; ?>">
-        ReadMag  </a> </ht> </div><brk></brk>
+        ReadMag &nbsp;- <?php echo $storyTopic; ?></a>
+      </ht> </div><brk></brk>
     <div class="sect" 
-     style="background-image: url(img/main.jpg), url(img/main.png), url(<?php echo $arrayofimagessrc[0]; ?>); 
+     style="background-image: url(<?php echo $arrayofimagessrc[0]; ?>); 
       background-repeat: no-repeat;
       background-position: 50% 50%;
-      background-color: rgb(55, 37, 111);
+      background-color: rgb(22, 19, 55);
       background-size: cover;
                       ">
     <tcont>
